@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: #023e8a;
+  background-color: #ade8f4;
+  margin: 0;
+  padding: 8px;
+}
+
+dl > div {
+  background: #f9f9f9;
+  padding: 24px 0 0 0;
+}
+
+dt {
+  background: #6c757d;
+  border-bottom: 1px solid #989ea4;
+  border-top: 1px solid #717d85;
+  color: #fff;
+  font: bold 30px/30px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 2px 0 0 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+}
+
+dd {
+  font: bold 20px/45px Helvetica, Arial, sans-serif;
+  margin: 2px;
+  padding: 0 0 0 12px;
+  white-space: nowrap;
+}
+dd::before {
+  content: "\260E ";
+}
+
+dd + dd {
+  border-top: 1px solid #ccc;
+}
